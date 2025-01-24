@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.olympic-rings {
+    position: relative;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ring {
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.blue {
+    border-color: rgb(88, 138, 247);
+    left: 0;
+    top: 0;
+}
+
+.black {
+    border-color: black;
+    left: 145px;
+    top: 0;
+}
+
+.red {
+    border-color: rgb(218, 1, 1);
+    left: 280px;
+    top: 0;
+}
+
+.yellow {border-color: rgb(255, 145, 0);
+    left:
+    75px;
+    top: 50px;
+}
+
+.green {
+    border-color: rgb(42, 138, 17);
+    left:215px;
+    top:50px;
+}

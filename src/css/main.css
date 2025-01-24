@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+#card-container {
+     border: 5px dotted purple;
+     display: flex;
+     justify-content: space-between;
+}
+
+.card {
+    border: 2px solid red;
+}
+
+.card > P {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card :first-child{
+    background-color: aqua;
+}
+
+.card :last-child{
+    background-color: brown;
+}
+
+.card :nth-child(3){
+    background-color: blue;
+}
+
